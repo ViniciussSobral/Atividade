@@ -176,10 +176,10 @@ header h3 {
             <form action="" method="post">
                 <fieldset>
                     <legend>Inserir Usuários</legend>
-                    <input type="text" name="usuario" placeholder="Usuário">
-                    <input type="email" name="email" placeholder="E-mail">
-                    <input type="password" name="senha" placeholder="Senha">
-                    <input type="password" name="repetesenha" placeholder="Confirme sua senha">
+                    <input type="text" name="usuario" placeholder="Usuário" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="password" name="senha" placeholder="Senha"required>
+                    <input type="password" name="repetesenha" placeholder="Confirme sua senha"required>
                     <input type="submit" name="cadastrar" value="Cadastrar">
                 </fieldset>
             </form>
